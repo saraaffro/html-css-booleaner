@@ -4,3 +4,7 @@
 #color_editor{
     color: rgb(100, 198, 231);
 }
+
+.highlight{
+    background-color: rgb(255, 255, 0);
+}
