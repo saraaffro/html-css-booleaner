@@ -4,10 +4,36 @@
 #color_editor{
     color: rgb(100, 198, 231);
 }
+ .editor{
+    color: gray;
+ }
 
 .highlight{
     background-color: rgb(255, 255, 0);
 }
+
+thead{
+    color: white;
+    background-color: rgb(0, 179, 255);
+}
+
+.color_line{
+    background-color: rgb(190, 239, 255);
+}
+
+.first_column{
+    width: 20%;
+}
+
+.second_column{
+    width: 20%;
+}
+
+.third_column{
+    width: 40%;
+}
+
+
 
 /* stile footer */
 #monitor{
