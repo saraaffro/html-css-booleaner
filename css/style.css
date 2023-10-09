@@ -1,20 +1,67 @@
+/* stile generale */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 /* stile header */
+.patterns{
+    width: 100%;
+    height: 180px;
+    background-image: url("file:///Users/saraaffro/Documents/BOOLEAN/esercizi/html-css-booleaner/img/pattern.png");
+    background-color: rgb(0, 140, 255);
+    position: relative;
+}
+
+#logo{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 /* stile main */
+.editor{
+    color: gray;
+    margin-bottom: 10px;
+ }
+
 #color_editor{
     color: rgb(100, 198, 231);
 }
- .editor{
-    color: gray;
- }
+ 
+.all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .highlight{
     background-color: rgb(255, 255, 0);
 }
 
+ul{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 thead{
     color: white;
     background-color: rgb(0, 179, 255);
+    text-align: left;
 }
 
 .color_line{
