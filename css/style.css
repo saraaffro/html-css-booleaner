@@ -8,3 +8,26 @@
 .highlight{
     background-color: rgb(255, 255, 0);
 }
+
+/* stile footer */
+#monitor{
+    background-image: url('file:///Users/saraaffro/Documents/BOOLEAN/esercizi/html-css-booleaner/img/monitor.jpg');
+    width: 312px;
+    height: 208px;
+    color: white;
+}
+
+#graph{
+    background-image: url('file:///Users/saraaffro/Documents/BOOLEAN/esercizi/html-css-booleaner/img/graph.jpg');
+    width: 311px;
+    height: 207px;
+    color: white;
+}
+
+#title_footer{
+    color: grey;
+}
+
+footer div{
+    margin-top: 10px;
+}
